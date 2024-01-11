@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Anti combat log",
+		"description": "Yes.",
+		"uuid": "46637b55-0d62-45fe-8fed-5bded8e95b10",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 20, 40 ]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "1209107e-6e51-4dcf-a8e1-b3f9633ffb1c",
+			"version": [ 0, 0, 1 ]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "dc855c05-00f5-4420-8583-c9c4b51aefa0",
+			"version": "1.4.0-beta"
+		}
+	],
+	"metadata": {
+		"authors": ["WhiteeCattt"],
+		"license": "MIT",
+		"url": "https://github.com/WhiteeCattt/Anti-combatlog"
+	},
+	"dependencies": [
+		{
+			"description": "@minecraft/server module dependency",
+			"module_name": "@minecraft/server",
+			"version": "1.7.0-beta"
+		}
+	]
+}
